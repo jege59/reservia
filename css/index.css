@@ -1,9 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-</body>
-</html>
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#conteneur {
+    display: flex;
+}
+
+#conteneur .element2{
+    margin-left: 40%;
+}
+
+#logo img {
+    width: 30%;
+    height: auto;
+}
+
+#menu #menu li {
+    display: inline;
+}
+
+#menu #menu {
+    list-style: none ; 
+}
+
+#menu li a {
+    padding: 22px 20px ;
+    color: grey;
+    text-align: center ;
+    text-decoration: none ;
+  }
+
+  #menu li a:hover {
+    background-color: #F2F2F2;
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+  }
