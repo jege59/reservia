@@ -34,4 +34,24 @@ body {
     background-color: #F2F2F2;
     color: #0065FC;
     border-top: 2px solid #0065FC;
+}
+
+#conteneur2 {
+    display: flex;
+}
+
+#conteneur2 h1{
+    font-size: 90%;
+    padding: 0px 150px;
+}
+
+#menu2 #menu2 {
+    list-style: none ; 
+}
+
+#menu2 li a {
+    padding: 22px 110px;
+    color: grey;
+    text-align: center ;
+    text-decoration: none ;
   }
